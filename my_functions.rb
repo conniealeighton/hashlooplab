@@ -17,3 +17,25 @@ def find_item(array_1, item_1)
     end
     return false
 end
+
+# # Write a function that has one parameter: hash
+# # It should return the first key from the hash that is passed in as an argument
+#
+# def test_get_first_key
+#   # arrange
+#   wallets = {
+#     "Alice" => 12,
+#     "Bob"  => 10,
+#     "Charlie"  => 1356,
+#     "Dave" => 1
+#   }
+#   # act
+#   result = get_first_key(wallets)
+#   # assert
+#   assert_equal('Alice', result)
+# end
+
+def get_first_key(hash)
+  key = hash.keys[0]
+  return key
+end
