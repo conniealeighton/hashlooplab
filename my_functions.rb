@@ -11,7 +11,7 @@ end
 
 def find_item(array_1, item_1)
     for items in array_1
-      if items[item_1] == array_1
+      if array_1.include? item_1
         return true
       end
     end
